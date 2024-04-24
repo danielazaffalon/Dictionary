@@ -240,7 +240,6 @@ int	ft_get_dictionary(char *path, char *buffer)
 
 	file = open(path, O_RDONLY);
 	buff_size = read(file, buffer, SIZE);
-	//printf("content: %s\nbuffer size:%i\n",buffer,buff_size);
 	close(file);
 	return buff_size;
 }
@@ -263,7 +262,7 @@ int	main(int ac, char **av)
 	}
 	else
 	{
-		dictionary_size = ft_get_dictionary("numbers.dict", dictionary);
+		dictionary_size = ft_get_dictionary("dictionary.dict", dictionary);
 		number = av[1];
 	}
 	num_size = ft_strlen(number);
