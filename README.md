@@ -1,4 +1,4 @@
-# Number Dictionary
+# Numbers Dictionary
 
 This is a program that takes a number as an input argument and converts it to its written value. The program can take up to 2 arguments:
 - If there is only one argument, it is the value you need to convert.
